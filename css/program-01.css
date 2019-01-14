@@ -1,0 +1,83 @@
+#title {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#number1 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number2 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number3 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#num3 {
+	position: absolute;
+    top: 50%;
+    left: 25%;
+    height: 50%;
+    width: 50%;
+    text-align: center;
+}
+#number4 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number5 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number6 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number7 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number8 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number9 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number10 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number11 {
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+#number11drag {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+    margin-left: auto;
+    margin-right: auto;
+}
+#number12 {
+	height: 200px;
+	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+}

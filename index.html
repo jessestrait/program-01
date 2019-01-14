@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/program-01.css">
+		<title>
+			ITSE 2302 Program-01: Jesse Strait
+		</title>
+	</head>
+	
+	<body>
+		<hr>
+		<div id="title">
+		<h1>ITSE 2302 - Program 01</h1>
+		<h2>Jesse Strait</h2>
+		<hr>
+		</div>
+		<div id="number1">
+		<h3>#1. Light Bulb - Click to Turn On/Off -</h3>.
+		
+		<p>
+        <img alt="" src="images/lightOff.jpg" 
+            style="height: 450px; width: 313px" id="imgClickAndChange" onclick="changeImage()"  />
+		</p>
+		<p id="displayTime">Date/Time:</p>
+		<hr>
+		</div>
+		<div id="number2">
+			
+			<h3>#2. Pick-a-size - Select a size: small/medium/large -</h3>.
+			
+			<select id="smMedLrg" onchange="swapImage()">
+				<option value="images/small.jpg">small</option>
+				<option value="images/medium.jpg">medium</option>
+				<option value="images/large.jpg">large</option>
+			</select>
+			<hr>
+			<img id="imageToSwap" src="images/small.jpg">
+		</div>
+		<div id="number3">
+			<hr>
+			<h3>#3. Clear the page and get that Back</h3>.
+			
+			<button type="button" onclick="clearPage()">Clear Page</button>
+			<hr>
+		</div>
+		<div id="number4">
+			
+			<h3>#4. Change the paragraph...click the buttons</h3>.
+			
+			<p id="para">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<button type="button" onclick="changePara()">Change the paragraph!!</button>
+			
+		</div>
+		<div id="number5">
+			<hr>
+			<h3>#5. Click for your GPS info, Works in Edge and Opera</h3>.
+			
+			<p id="gps"></p>
+			<button type="button" onclick="GPSinfo()">Get your location!!</button>
+			<hr>
+		</div>
+		<div id="number6">
+			
+			<h3>#6. Simple calculator enter 2 numbers and hit the button!</h3>
+			<input type="number" name="num1" id="num1"/>number 1<br>
+			<input type="number" name="num2" id="num2"/>number 2<br>
+			<button type="button" onclick="numOps()">See some Operations...</button>
+			<p id="add"></p>
+			<p id="sub"></p>
+			<p id="mult"></p>
+			<p id="div"></p>
+			<hr>
+		</div>
+		<div id="number7">
+			
+			<h3>#7. String operations as numbers and strings, using your numbers from #6</h3>
+			
+			<p id="stringNum"></p>
+			
+			<hr>
+		</div>
+		<div id="number8">
+			
+			<h3>#8. Enter a Number, is it odd or even?</h3>
+			<input type="number" name="oddEven" id="oddEven"/>
+			<button type="button" onclick="oddEven()">Check Number</button>
+			<p id="oddEvenRes"></p>.
+			<img alt="" src="" id="oddEvenResPic">
+			<hr>
+		</div>
+		<div id="number9">
+			<h3>#9. Enter a Number, hit the button for increment, check the button for decrement</h3>
+			<input type="number" name="numIncDec" id="numIncDec"/><br>
+			<input type="checkbox" id="decrement" name="decrement" onclick=""/>DECREMENT<br />
+			<button type="button" onclick="incDecChange();">Change Number</button>
+			<hr>
+		</div>
+		
+		<div id="number10">
+			
+			<h3>#10. Pick-a-Name - Select a name, hit the button -</h3>.
+			
+			<select id="selName" onchange="">
+				<option value=""></option>
+				<option value="purple">Trinity</option>
+				<option value="red">Avery</option>
+				<option value="green">Katye</option>
+				<option value="blue">Jesse</option>
+			</select>
+			<button type="button" onclick="displayName()">Display Selected Name</button>
+			<h1 id="disName"></h1>
+			<hr>
+			
+		</div>
+		<div id="number11">
+			<h3>#11 Drag the image into the rectangle:</h3>
+			<br />
+			<div id="number11drag" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+			<br>
+			<img id="drag1" src="images/treason.jpg" draggable="true" ondragstart="drag(event)" width="150" height="100">
+			<hr>
+		</div>
+		
+		<div id="number12">
+			<h3>#12 mouse over to change background color, hover out to change back!:</h3>
+		</div>
+		<script src="scripts/program-01.js"></script>
+	</body>
+</html>
